@@ -10,8 +10,8 @@ def getPageContent():
         # proceed if we established the connect successfully
         if webpage.status_code == 200:
             return BeautifulSoup(webpage.content, "html.parser") # print(soup.prettify())
-        else: raise Exception("Not able to connect to the Website!")
-
+        else: 
+            raise Exception("Not able to connect to the Website!")
     except:
         raise Exception("Not able to connect to the Website! Make sure you have connected to the internet or entered the correct URL!")
         
@@ -40,6 +40,7 @@ def getBusList(_soup):
 
 def getBusPos(list):
     stops = ["PGH 研究生宿舍巴士站", "E4 劉少榮樓", "N2 大學會堂", "N6 行政樓", "E11 科技學院", "E21 人文社科樓", "E32 法學院", "S4 研究生宿舍南四座(近連廊)"]
+    
     for index, bus in enumerate(list):
         if bus is not None:
             # print(index + 1, bus)
@@ -68,7 +69,6 @@ def getLastUpdate(_soup):
 
 def getCurrentTime():
     now = datetime.now()
-
     current_time = now.strftime("%H:%M:%S")
     return current_time
 
