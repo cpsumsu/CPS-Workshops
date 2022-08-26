@@ -49,7 +49,7 @@ def getBusPos(list):
             elif isinstance(real_index, float): # Between Stops
                 status = "正在前往"
 
-            return f"{status} {stops[math.ceil(real_index)]}" # break the loop
+            return f"\n{status}【{stops[math.ceil(real_index)]}】" # break the loop
 
 def getNextShift(_soup):
     soup = _soup
@@ -69,7 +69,7 @@ def getLastUpdate(_soup):
 def getCurrentTime():
     now = datetime.now()
 
-    current_time = now.strftime("%H:%M")
+    current_time = now.strftime("%H:%M:%S")
     return current_time
 
 webpage = getPageContent()
@@ -81,15 +81,18 @@ last_update = getLastUpdate(webpage)
 
 current_time = getCurrentTime()
 
+print("\n\n====================================")
 print("下一班車的時間:", next_shift)
 print("巴士服務狀態:", bus_status)
 print("最後更新時間:", last_update)
 
-print("現在時間: ", current_time)
+print("現在時間:", current_time)
 
-# bus_position = getBusPos(stop_list)
+bus_position = getBusPos(stop_list)
+print(bus_position)
+print("====================================\n")
+
 # print(stop_list)
-# print(bus_position)
 
 # testing_list = [None, 'MP5602', None, None, None, None, None, None, None, None, None, None, None, None, None, None]
 # print(getBusPos(testing_list))
