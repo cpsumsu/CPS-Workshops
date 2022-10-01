@@ -2,7 +2,9 @@
   利用Python去體驗編程的世界
 </h1>
 
-![cps_banner](https://user-images.githubusercontent.com/82365010/184548549-40cd1ef1-a352-46fc-a45b-75ff42948ae3.png)
+<p align="center">
+  <img alt="Python Workshop Poster" src="https://user-images.githubusercontent.com/82365010/193398942-962a1dbd-bfbb-478f-b6a0-64f17ddf900c.png"
+</p>
 
 ## 未來趨勢
 編程，在很多人眼中都是在特定領域從業的人才需要學的，學習門檻不僅高，還沒有實際的幫助。但事實上，編程已經開始從專業技能逐步變為職場上的通用技能。人工智能、自動化辦公、數據分析、數據可視化等等的技能，都能提升你在職場上的表現和效率。
