@@ -23,7 +23,7 @@ Python簡潔的語法省略了其他編程語言中難懂的概念，讓初學�
 
 `負責人` - [`@K4Lok`](https://github.com/k4lok)
 
-`PPT` - [`@sunnyieong`](https://github.com/sunnyieong), [`@K4Lok`](https://github.com/k4lok)
+ [`PPT`](https://docs.google.com/presentation/d/1opniTc4YCxfQQ4yPX9M5tx3yJCXOUawbYAL53OdJKFo/edit?usp=sharing) - [`@sunnyieong`](https://github.com/sunnyieong), [`@K4Lok`](https://github.com/k4lok)
 
 `日期` - `2022年09月21日` `14:00-16:00`
 
