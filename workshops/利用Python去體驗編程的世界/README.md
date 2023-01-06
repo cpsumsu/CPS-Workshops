@@ -1,4 +1,4 @@
-<h1 align="center" >
+<h1 align="start" >
   利用Python去體驗編程的世界
 </h1>
 
