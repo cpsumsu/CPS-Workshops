@@ -3,7 +3,7 @@
 </h1>
 
 <p align="center">
-  <img alt="WordPress Workshop Poster" src="https://user-images.githubusercontent.com/82365010/193398942-962a1dbd-bfbb-478f-b6a0-64f17ddf900c.png"
+  <img alt="WordPress Workshop Poster" src="https://user-images.githubusercontent.com/82365010/210904115-0382d703-f6f0-4059-ab0b-d4196d33715d.png"
 </p>
 
 ## 工作坊介紹
