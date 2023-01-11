@@ -13,6 +13,8 @@
 
 `負責人` - [`@K4Lok`](https://github.com/k4lok)
 
+[`PPT`](https://docs.google.com/presentation/d/1gXgH2eVGcd5PITK-P4BWFZL0f5-H48iEWtWxAMWRJ5k/edit?usp=sharing) - [`@K4Lok`](https://github.com/k4lok)
+
 `海報設計` - `Yan`
 
 `日期` - `2023年01月11日` `14:00-16:00`
@@ -27,6 +29,7 @@
 ---
 
 ## 學習鏈接
+* [學習筆記](./學習筆記)
 * [圖片資源](./圖片資源)
 
 ---
