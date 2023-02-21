@@ -23,6 +23,8 @@
 2. JavaScript物件概念
 3. DOM和BOM操作基礎
 
-
+## 項目實踐
+1. CPS網站首頁頂部 (HTML, CSS) 
+2. CPS活動卡獲取與展示 (HTML, CSS, JavaScript)
 
 ---
