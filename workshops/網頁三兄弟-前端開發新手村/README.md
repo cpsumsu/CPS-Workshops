@@ -2,9 +2,9 @@
   網頁三兄弟-前端開發新手村
 </h1>
 
-<!-- <p align="center">
-  <img alt="Python Workshop Poster" src="https://user-images.githubusercontent.com/82365010/193398942-962a1dbd-bfbb-478f-b6a0-64f17ddf900c.png"
-</p> -->
+<p align="center">
+  <img alt="Python Workshop Poster" src="./poster-website-workshop.png" width="50%" >
+</p>
 
 ## 網頁三兄弟
 網頁三兄弟是構成網站的重要技術，分別對應著 `HTML` (結構)、`CSS` (美化)、`JS` (功能)。他們各司其職，負責網頁上不同的部分。例如 `HTML` 可以把網頁上需要的元素（文字、輸入框、圖片、鏈接）生成出來；`CSS` 可以美化裝飾頁面上的元素，像是按鈕的樣式（大小、顏色、動畫等）；最後就是 `JS`，`JavaScript` 負責網頁元素與用戶操作的邏輯，例子就如通過用戶點擊按鈕改變頁面上的顏色主題、會員登入登出等。
