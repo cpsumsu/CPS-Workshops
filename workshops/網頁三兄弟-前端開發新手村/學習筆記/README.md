@@ -12,8 +12,8 @@
 3. [HTML5的新特性](./docs/HTML5%E7%9A%84%E6%96%B0%E7%89%B9%E6%80%A7.md)
 
 ## CSS基礎
-1. [CSS選擇器](./docs/CSS%E9%81%B8%E6%93%87%E5%99%A8.md)
-2. CSS屬性和使用方法
+1. [CSS介紹和基本用法](./docs/CSS%E4%BB%8B%E7%B4%B9%E5%92%8C%E5%9F%BA%E6%9C%AC%E7%94%A8%E6%B3%95.md)
+2. [CSS選擇器](./docs/CSS%E9%81%B8%E6%93%87%E5%99%A8.md)
 3. 實用的CSS佈局技巧
 4. 響應式佈局
 
