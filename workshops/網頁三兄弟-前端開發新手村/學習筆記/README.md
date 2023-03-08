@@ -12,7 +12,7 @@
 3. [HTML5的新特性](./docs/HTML5%E7%9A%84%E6%96%B0%E7%89%B9%E6%80%A7.md)
 
 ## CSS基礎
-1. CSS介紹
+1. [CSS介紹](./docs/CSS%E4%BB%8B%E7%B4%B9.md)
 2. CSS選擇器
 3. CSS屬性和使用方法
 4. 實用的CSS佈局技巧
