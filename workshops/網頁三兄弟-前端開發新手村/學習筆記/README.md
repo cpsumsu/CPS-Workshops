@@ -8,7 +8,7 @@
 
 ## HTML基礎
 1. [HTML的基本結構和常用元素](./docs/HTML%E7%9A%84%E5%9F%BA%E6%9C%AC%E7%B5%90%E6%A7%8B%E5%92%8C%E5%B8%B8%E7%94%A8%E5%85%83%E7%B4%A0.md)
-2. HTML元素屬性
+2. [HTML元素屬性](./docs/HTML%E5%85%83%E7%B4%A0%E5%B1%AC%E6%80%A7.md)
 3. HTML5的新特性
 
 ## CSS基礎
