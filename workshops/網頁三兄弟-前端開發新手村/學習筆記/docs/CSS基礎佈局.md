@@ -7,11 +7,19 @@
 每一種元素都有一個特定的佈局模式，而這種預設的模式主要分了 `inline` 和 `block`。第一種分別是很直接容易理解的， `inline` 元素預設不會霸佔頁面上的一行，也就是說元素不會跑到新的一行裡。
 
 ```html
-<p>Text</p><p>This will be in the same line</p>
+<p>CPS</p><p>This will be in the same line</p>
 ```
 
 而 `block` 元素預設是會霸佔整行的位置，所以兩個相鄰的 `block` 元素預設是不會在同一行的。
 ```html
-<div>Text</div>
-<div>This will be in the same line</div>
+<div>CPS</div>
+<div>This will be in the new line</div>
 ```
+
+![Inline-vs-Block](./resources/inline-vs-block.png)
+
+## 常見元素的預設佈局
+
+以下的便是常見元素的佈局，除此之外還有很多元素。詳情可以在 [`htmlreference`](https://htmlreference.io/) 選取不同的標籤查看。
+
+![Inline-vs-Block-Elements](./resources/inline-vs-block-elements.png)
