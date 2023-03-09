@@ -66,3 +66,13 @@ font-size: 1rem;
 font-weight: normal; /* 和 font-weight: 400 一樣 */
 font-weight: bold; /* 和 font-weight: 600 一樣 */
 ```
+
+### 背景相關的屬性
+
+背景顏色:
+```css
+/* 預設的背景顏色是透明的 */
+background-color: transparent;
+background-color: teal;
+background-color: #008080;
+```
