@@ -108,3 +108,25 @@ span {
     margin-block: 20px; /* top: 20px, bottom: 20px */
 }
 ```
+
+## 應該用哪一個？
+
+你應該會很好奇盒子模型有 `margin` 和 `padding`兩個類型調整空間的屬性，但是其實它們兩個的作用是不同的。最主要的分別是關於背景顏色和邊框（`border`）的。我們可以看看以下的代碼：
+
+```html
+<style>
+    span {
+        color: white;
+        background-color: #7AC2B1;
+        border: solid 1px black;
+        padding: 6px 10px;
+        margin: 20px;
+    }
+</style>
+
+<span>工作坊</span>
+|
+<span>分享會</span>
+```
+
+可以看到，背景的顏色只要到邊框就會結束，`padding` 的作用正是增加背景顏色的大小和與邊框的距離；而 `margin`則是控制與附近元素的距離。所以我們要視乎想要什麼效果再去使用。
