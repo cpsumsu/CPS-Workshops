@@ -22,4 +22,11 @@
 
 以下的便是常見元素的佈局，除此之外還有很多元素。詳情可以在 [`htmlreference`](https://htmlreference.io/) 選取不同的標籤查看。
 
+```css
+display: inline;
+/* vs */
+display: block;
+```
+
 ![Inline-vs-Block-Elements](./resources/inline-vs-block-elements.png)
+
