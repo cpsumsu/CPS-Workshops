@@ -30,3 +30,35 @@ display: block;
 
 ![Inline-vs-Block-Elements](./resources/inline-vs-block-elements.png)
 
+---
+
+## 盒子模型 - Box Model
+
+除了預設佈局外，還有一個非常重要的概念可以幫助我們改變元素的佈局。其實每一個元素在瀏覽器的眼中都是一個盒子，總共分了三層的盒子，最外層：Margin；第二層：Border；第三層：Padding；到最內一層才是我們元素實際內容的大小。
+
+![box-model](./resources/box-model.png)
+
+我們可以通過兩個 `<p>` 元素看看效果：
+
+```html
+<head>
+    <style>
+        span {
+            border: solid 2px black;
+            margin: 10px;
+            padding: 2px;
+        }
+    </style>
+</head>
+
+<body>
+    <span>左邊元素</span>
+    <span>右邊元素</span>
+</body>
+```
+
+我們可以滑鼠右鍵點擊檢查去打開開發者工具，在 Chrome 的開發者工具中，我們可以查看元素的盒子模型，開發者工具清晰地告訴我們元素盒子模型的數值。
+
+![Box-Model-DevTool](./resources/box-model-devtool.png)
+
+> 在學習的路上，甚至是工作時，我們都會利用開發者工具去進行排查，看看那一個位置出現了問題。所以學習如何使用這個工具也是一個重要的事情。
