@@ -39,3 +39,9 @@
 ![justify-content](./resources/justify-content.png)
 
 `justify-content` 會通過容器最大的寬度去分配容器內元素的位置，我們可以通過圖片中的 6 種方式去控制。
+
+## 橫坐標 / Cross Axis For flex-direction: row
+
+橫坐標的屬性是 `align-content` 跟 `justify-content` 大致上都是一樣的，只是由主軸轉成橫軸和其中一個值不一樣。我們可以從下方的圖片看到他們的分別：
+
+![align-content](./resources/align-content.png)
