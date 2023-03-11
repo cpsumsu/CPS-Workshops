@@ -45,3 +45,9 @@
 橫坐標的屬性是 `align-content` 跟 `justify-content` 大致上都是一樣的，只是由主軸轉成橫軸和其中一個值不一樣。我們可以從下方的圖片看到他們的分別：
 
 ![align-content](./resources/align-content.png)
+
+## 練習
+
+我們可以通過一些網上的小遊戲去學習 `flexbox` 佈局的用法，這是一個挺有趣的遊戲（[網址](https://flexboxfroggy.com/)）。
+
+還可以準備本次工作坊要實作的項目的 header 部分。
