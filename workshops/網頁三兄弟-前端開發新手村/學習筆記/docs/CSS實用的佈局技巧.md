@@ -31,3 +31,11 @@
     flex-direction: row;
 }
 ```
+
+## 橫坐標 / Main Axis For flex-direction: row
+
+這個時候我們就具備了改變 flex 元素佈局的能力，我們可以在接下來的環節中從縱坐標（Y軸）和橫坐標（X軸）控制元素的排佈。
+
+![justify-content](./resources/justify-content.png)
+
+`justify-content` 會通過容器最大的寬度去分配容器內元素的位置，我們可以通過圖片中的 6 種方式去控制。
