@@ -16,7 +16,7 @@
 2. [CSS選擇器](./docs/CSS%E9%81%B8%E6%93%87%E5%99%A8.md)
 3. [CSS基礎佈局](./docs/CSS%E5%9F%BA%E7%A4%8E%E4%BD%88%E5%B1%80.md)
 3. [CSS實用的佈局技巧](./docs/CSS%E5%AF%A6%E7%94%A8%E7%9A%84%E4%BD%88%E5%B1%80%E6%8A%80%E5%B7%A7.md)
-4. 響應式佈局
+4. [響應式佈局](./docs/%E9%9F%BF%E6%87%89%E5%BC%8F%E4%BD%88%E5%B1%80.md)
 
 ## JavaScript基礎
 1. 基本語法、變量、數據類型、運算符、條件語句等
