@@ -1,0 +1,1 @@
+# JavaScript 基本語法

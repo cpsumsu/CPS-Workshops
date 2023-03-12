@@ -19,7 +19,7 @@
 4. [響應式佈局](./docs/%E9%9F%BF%E6%87%89%E5%BC%8F%E4%BD%88%E5%B1%80.md)
 
 ## JavaScript基礎
-1. 基本語法、變量、數據類型、運算符、條件語句等
+1. [基本語法、變量、數據類型、運算符、條件語句等](./docs/JS%E5%9F%BA%E6%9C%AC%E8%AA%9E%E6%B3%95.md)
 2. JavaScript物件概念
 3. DOM和BOM操作基礎
 
