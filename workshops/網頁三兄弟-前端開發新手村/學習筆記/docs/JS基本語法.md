@@ -45,19 +45,50 @@ LEGAL_AGE_TO_DRINK = 19; // 程式會報錯，並提示 const 變量不能被修
 
 ```js
 const age = 18;
-console.log(age) // 輸出 18
+console.log(age); // 輸出：18
 
 const name = "KaLok";
-console.log(name) // 輸出 KaLok
+console.log(name); // 輸出：KaLok
 
 const isPressed = true;
-console.log(isPressed) // 輸出 true
+console.log(isPressed); // 輸出：true
 
 const x;
-console.log(x) // 提示 x 的值為 undefined
+console.log(x); // 提示 x 的值為 undefined
 
 const user = null;
-console.log(user) // 輸出 null
+console.log(user); // 輸出：null
 ```
 
 > `JavaScript` 不像 `C` 或 `Java` 等的那些編程語言，`JS` 的變量可以忽略數據類型去重新賦值變量，這樣就會相對不算嚴謹。但是我們一般也不會把不同類型的變量重新賦值。
+
+## 運算符
+
+我們可以通過運算符把數值類型為數字的變量進行運算，例如相加相乘等的操作：
+
+```js
+let a = 2;
+let b = 4;
+
+let answer = a + b; // answer = 6
+
+let answer = a - b; // answer = -2
+
+let answer = a * b; // answer = 8
+
+let answer = a / b; // answer = 0.5
+```
+
+我們可以對字符串的變量進行相加的操作：
+
+```js
+const firstName = "Elon";
+const lastName = "Musk";
+
+let fullName = firstName + lastName;
+console.log(fullName) // 輸出：ElonMusk
+
+let fullName = firstName + ' ' + lastName;
+console.log(fullName) // 輸出：Elon Musk
+```
+
