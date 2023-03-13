@@ -21,7 +21,7 @@
 ## JavaScript基礎
 1. [基本語法、變量、數據類型、運算符、條件語句等](./docs/JS%E5%9F%BA%E6%9C%AC%E8%AA%9E%E6%B3%95.md)
 2. [JavaScript物件概念](./docs/JS%E7%89%A9%E4%BB%B6%E6%A6%82%E5%BF%B5.md)
-3. DOM和BOM操作基礎
+3. [DOM和BOM操作基礎](./docs/DOM%E5%92%8CBOM%E6%93%8D%E4%BD%9C%E5%9F%BA%E7%A4%8E.md)
 
 ## 項目實踐
 1. CPS網站首頁頂部 (HTML, CSS) 
