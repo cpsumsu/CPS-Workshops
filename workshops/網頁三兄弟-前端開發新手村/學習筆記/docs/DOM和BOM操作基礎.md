@@ -37,3 +37,45 @@ h1Element.innerHTML = "H1 Changed By JS";
 ```
 
 我們會在瀏覽器中看到 `<h1>` 元素的值已經被 JS 改為 `"H1 Changed By JS"`。這個大概就是我們可以通過 DOM 去修改 HTML 文檔中的元素的效果。
+
+## BOM - Browser Object Model
+
+`BOM` 是一組由瀏覽器提供的接口，由不同個別的物件變量提供瀏覽器的服務。例如我們一直在使用開發者工具中的 `console` 頁面，這個也是 `BOM` 的一種、還有向伺服器發送網絡請求的功能、取得瀏覽器目前網址等等。另外還有很多的 API（接口、也就是不同的物件變量）供我們使用。
+
+### 進行網絡請求
+
+我們將會在這個部分學習如何通過 `BOM API / Web API` 向我們電腦學會的伺服器進行網絡請求，這些資料將會用於我們後面實作的項目。
+
+我們會使用內置的 `fetch()` 函數去進行獲取資料的動作。由於 `fetch()` 函數主要可使用兩種方式，我們會使用較容易的方案去做，因為較難的方式牽涉到同步於非同步的概念，可能需要有一定基礎才容易理解。
+
+```js
+// fetch() 函數的第一個參數是 url，想要請求的網址。
+// 由於網絡請求需要時間來處理，JS 引擎會跳過並先執行後續的指令。
+// 這樣就可以在等待伺服器回應的過程中做其他事情，
+// 然後我們需要通過 .then() 的鏈式函數去利用請求回來的數據。
+
+fetch("https://catfact.ninja/fact") 
+    .then(function(res) {
+        return res.json();
+    })
+    .then(function(result) {
+        console.log(result);
+        console.log("Fact: ", result.fact);
+        console.log("Length: ", result.length)
+    });
+```
+
+> 如果出現報錯時可以先在瀏覽器中前往 API 的網址看看有沒有回應先。
+
+```js
+const API_URL = "https://backend.cpsumsu.org/api/events";
+
+fetch(API_URL)
+    .then(function(res) {
+        return res.json();
+    })
+    .then(function(result) {
+        console.log(result);
+        console.log(result.data);
+    })
+```
