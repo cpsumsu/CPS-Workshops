@@ -1,0 +1,180 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;700&display=swap');
+
+*, :root {
+    font-family: 'Noto Sans TC', sans-serif;
+    --padding-wrapper: 70px;
+    --padding-wrapper-mobile: 20px;
+}
+
+body {
+    margin: 0;
+    margin-bottom: 6rem;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+a:active,
+a:visited {
+    color: inherit;
+}
+
+ul {
+    list-style: none;
+}
+
+main {
+    padding-inline: var(--padding-wrapper);
+}
+
+
+/* Header */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #87A4B4;
+    padding-inline: var(--padding-wrapper);
+    height: 90px;
+}
+
+.logo-container {
+    display: flex;
+    align-items: end;
+    gap: 1rem;
+}
+
+.logo-container #logo {
+    width: 40px;
+    height: 35px;
+    object-fit: contain;
+}
+
+.logo-container #title {
+    margin: 0;
+    font-weight: normal;
+    color: white;
+}
+
+.logo-container #title:hover {
+    color: #EDEDED;
+}
+
+nav li,
+nav a {
+    color: white;
+    font-size: 20px;
+}
+
+nav a:hover {
+    color: #EDEDED;
+}
+
+
+/* Main Content */
+main h2 {
+    font-size: 36px;
+    text-align: center;
+    margin-block: 4rem;
+}
+
+
+/* Events */
+.events-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+
+.event {
+    width: 45%;
+    max-width: 30rem;
+    padding: 10px;
+    background-color: #F4F4F4;
+    border-radius: 10px;
+}
+
+.event:hover {
+    transform: scale(102%);
+}
+
+.image-container {
+    position: relative;
+    width: 100%;
+    aspect-ratio: 2/1;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.event img {
+    width: 100%;
+    object-fit: cover;
+}
+
+.event .type {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    background-color: #7AC2B1;
+    padding-inline: 10px;
+    padding-block: 4px;
+    border-radius: 4px;
+    color: white;
+    font-weight: bold;
+}
+
+.event-info {
+    padding-inline: 10px;
+    margin-block: 10px;
+}
+
+.event .date,
+.event h3 {
+    margin: 0;
+}
+
+.event h3 {
+    font-weight: normal;
+}
+
+.event .date {
+    font-size: 14px;
+    color: #7AB3CC;
+}
+
+/* Responsive For Mobile Device */
+@media (max-width: 640px) {
+    header {
+        height: 70px;
+        padding-inline: var(--padding-wrapper-mobile);
+    }
+
+    main {
+        padding-inline: var(--padding-wrapper-mobile);
+    }
+
+    main h2 {
+        font-size: 26px;
+        margin-block: 1.5rem;
+    }
+
+    #title {
+        display: none;
+    }
+
+    .events-container {
+        gap: 1rem;
+    }
+
+    .event {
+        width: 100%;
+        max-width: none;
+    }
+
+    .image-container {
+        aspect-ratio: 1.8/1;
+    }
+}
