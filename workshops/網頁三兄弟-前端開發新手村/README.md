@@ -36,7 +36,7 @@
 
 `日期` - `2023年03月15日` `14:00-17:00`
 
-[`PPT`]((https://docs.google.com/presentation/d/1Fu7hzxE79zaKtXdsBjuORR_O0V2M7sgrUknEnlq6kn4/edit?usp=sharing)) - [`@K4Lok`](https://github.com/k4lok)
+[`PPT`](https://docs.google.com/presentation/d/1Fu7hzxE79zaKtXdsBjuORR_O0V2M7sgrUknEnlq6kn4/edit?usp=sharing) - [`@K4Lok`](https://github.com/k4lok)
 
 ## 學習鏈接
 * [學習筆記](./學習筆記)
