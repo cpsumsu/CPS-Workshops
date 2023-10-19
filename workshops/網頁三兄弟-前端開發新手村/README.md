@@ -38,6 +38,8 @@
 
 [`PPT`](https://docs.google.com/presentation/d/1Fu7hzxE79zaKtXdsBjuORR_O0V2M7sgrUknEnlq6kn4/edit?usp=sharing) - [`@K4Lok`](https://github.com/k4lok)
 
+`錄像` - [`https://www.youtube.com/watch?v=nxtXRy8eWwo`](https://www.youtube.com/watch?v=nxtXRy8eWwo)
+
 ## 學習鏈接
 * [學習筆記](./學習筆記)
 * [項目資源](./項目資源)
